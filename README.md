@@ -14,6 +14,20 @@ Run this to start the RabbitMQ server and the API server:
 docker-compose up
 ````
 
+If you already have a RabbitMQ server running, you can start the API server with the following command:
+
+**Windows**
+
+````shell
+./mvnw.cmd spring-boot:run
+````
+
+**Linux**
+
+````shell
+./mvnw spring-boot:run
+````
+
 ## API Endpoints
 
 ### 1. View Available Books
